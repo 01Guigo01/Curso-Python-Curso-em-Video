@@ -39,6 +39,7 @@
     "Python.aula004A.executor": "Run",
     "Python.aula004B.executor": "Run",
     "Python.aula004C.executor": "Run",
+    "Python.aula005A.executor": "Run",
     "Python.desafio001.executor": "Run",
     "Python.desafio002.executor": "Run",
     "Python.desafio003.executor": "Run",
@@ -60,6 +61,11 @@
     "Python.desafio019.executor": "Run",
     "Python.desafio020.executor": "Run",
     "Python.desafio021.executor": "Run",
+    "Python.desafio022.executor": "Run",
+    "Python.desafio023.executor": "Run",
+    "Python.desafio024.executor": "Run",
+    "Python.desafio025.executor": "Run",
+    "Python.desafio027.executor": "Run",
     "Python.ex001.executor": "Run",
     "Python.ex002.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -77,8 +83,8 @@
       <recent name="C:\Users\guimo\OneDrive\Documentos\Estudos\Curso em Video\Curso Python\pythonProject\aulas" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.desafio021">
-    <configuration name="desafio017" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.desafio027">
+    <configuration name="desafio022" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,7 +97,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/desafios/desafio017.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/desafios/desafio022.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -100,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="desafio018" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="desafio023" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,7 +119,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/desafios/desafio018.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/desafios/desafio023.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="desafio019" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="desafio024" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,7 +141,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/desafios/desafio019.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/desafios/desafio024.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,7 +150,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="desafio020" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="desafio025" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,7 +163,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/desafios/desafio020.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/desafios/desafio025.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,7 +172,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="desafio021" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="desafio027" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,7 +185,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/desafios/desafio021.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/desafios/desafio027.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -212,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.desafio021" />
-        <item itemvalue="Python.desafio020" />
-        <item itemvalue="Python.desafio019" />
-        <item itemvalue="Python.desafio018" />
-        <item itemvalue="Python.desafio017" />
+        <item itemvalue="Python.desafio027" />
+        <item itemvalue="Python.desafio025" />
+        <item itemvalue="Python.desafio024" />
+        <item itemvalue="Python.desafio023" />
+        <item itemvalue="Python.desafio022" />
       </list>
     </recent_temporary>
   </component>

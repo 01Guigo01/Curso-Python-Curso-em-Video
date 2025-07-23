@@ -1,7 +1,7 @@
 """
 DESESAFIO 021
 
-Fa;ca um programa em Pyhton que abra e reproduza o áudio de um arquivo MP3
+Façaa um programa em Pyhton que abra e reproduza o áudio de um arquivo MP3
 
 """
 
