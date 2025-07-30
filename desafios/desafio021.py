@@ -1,43 +1,41 @@
 """
-DESESAFIO 021
 
-Façaa um programa em Pyhton que abra e reproduza o áudio de um arquivo MP3
+DESESAFIO 021 #TODO MELHORAR E COLOCAR LIMITE DE IDADE FAZER UMA GUI
+
+Façaa um programa em Pyhton que abra e reproduza o áudio de um arquivo MP3.
 
 """
 
-
 import pygame
-import time # Precisamos do 'time' para fazer o programa esperar
+import time
 
 print("=" * 50)
+print("🎧 MP3 MALUCO: SUA MÚSICA NO COMANDO! 🎶".center(50))
+print("=" * 50)
 
-print("MP3 LOUCOS".center(50))
-
-# 1. Inicializa todos os módulos do Pygame
 pygame.init()
-
-# 2. Inicializa o mixer (módulo de áudio) do Pygame
-# Esta linha é crucial para que o áudio funcione!
 pygame.mixer.init()
 
-music = 'teste.mp3' # Certifique-se de que 'teste.mp3' está na mesma pasta do seu script
+music = 'teste.mp3' # Certifique-se de que 'teste.mp3' está na mesma pasta!
 
+# Carrega a música. ATENÇÃO: Se o arquivo não existir, o programa vai travar aqui!
 pygame.mixer.music.load(music)
 
-print(f"\nReproduzindo: {music}")
+print(f"\nPreparando para reproduzir: \033[1;36m{music}\033[m")
+time.sleep(1.5)
 
-# 3. Toca a música uma vez
+print("\n🔊 TOCANDO AGORA! Divirta-se! 🚀")
 pygame.mixer.music.play(1)
 
-# 4. Faz o programa esperar enquanto a música toca
-# 'pygame.mixer.music.get_busy()' retorna True enquanto a música está tocando.
+# Loop para manter o programa rodando enquanto a música toca
 while pygame.mixer.music.get_busy():
     time.sleep(1) # Espera 1 segundo para não usar muita CPU
 
-print("\nReprodução concluída!")
+print("\n⏹️ Reprodução concluída! Espero que tenha gostado. 🎉")
 
-# 5. Desinicializa o Pygame e o mixer para liberar os recursos
 pygame.mixer.quit()
 pygame.quit()
 
+print("=" * 50)
+print("MP3 MALUCO ENCERRADO!".center(50))
 print("=" * 50)
