@@ -33,6 +33,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Aula008B.executor": "Run",
     "Python.Desafio029.executor": "Run",
     "Python.Desafio030.executor": "Run",
     "Python.Desafio031.executor": "Run",
@@ -49,6 +50,17 @@
     "Python.Desafio043.executor": "Run",
     "Python.Desafio044.executor": "Run",
     "Python.Desafio045.executor": "Run",
+    "Python.Desafio046.executor": "Run",
+    "Python.Desafio047.executor": "Run",
+    "Python.Desafio048.executor": "Run",
+    "Python.Desafio049.executor": "Run",
+    "Python.Desafio050.executor": "Run",
+    "Python.Desafio051.executor": "Run",
+    "Python.Desafio052.executor": "Run",
+    "Python.Desafio053.executor": "Run",
+    "Python.Desafio054.executor": "Run",
+    "Python.Desafio055.executor": "Run",
+    "Python.Desafio056.executor": "Run",
     "Python.Desefio039.executor": "Run",
     "Python.aula002B.executor": "Run",
     "Python.aula003A.executor": "Run",
@@ -59,6 +71,7 @@
     "Python.aula005A.executor": "Run",
     "Python.aula006A.executor": "Run",
     "Python.aula006B.executor": "Run",
+    "Python.aula008A.executor": "Run",
     "Python.desafio001.executor": "Run",
     "Python.desafio002.executor": "Run",
     "Python.desafio003.executor": "Run",
@@ -93,7 +106,7 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/guimo/OneDrive/Documentos/Estudos/Curso em Video/Curso Python/pythonProject/.git/Curso-Python-Curso-em-Video/desafios",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -104,8 +117,8 @@
       <recent name="C:\Users\guimo\OneDrive\Documentos\Estudos\Curso em Video\Curso Python\pythonProject\aulas" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Desafio035">
-    <configuration name="Desafio031" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Desafio056">
+    <configuration name="Desafio052" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,7 +131,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/desafios/Desafio031.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/desafios/Desafio052.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,7 +140,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Desafio032" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Desafio053" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,7 +153,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/desafios/Desafio032.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/desafios/Desafio053.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,7 +162,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Desafio033" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Desafio054" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,7 +175,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/desafios/Desafio033.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/desafios/Desafio054.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,7 +184,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Desafio034" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Desafio055" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,7 +197,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/desafios/Desafio034.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/desafios/Desafio055.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,7 +206,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Desafio035" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Desafio056" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -206,7 +219,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/desafios/Desafio035.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/desafios/Desafio056.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -239,11 +252,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Desafio035" />
-        <item itemvalue="Python.Desafio034" />
-        <item itemvalue="Python.Desafio033" />
-        <item itemvalue="Python.Desafio032" />
-        <item itemvalue="Python.Desafio031" />
+        <item itemvalue="Python.Desafio056" />
+        <item itemvalue="Python.Desafio055" />
+        <item itemvalue="Python.Desafio054" />
+        <item itemvalue="Python.Desafio053" />
+        <item itemvalue="Python.Desafio052" />
       </list>
     </recent_temporary>
   </component>
@@ -264,5 +277,16 @@
       <updated>1752622475817</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/desafios/Desafio030.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
