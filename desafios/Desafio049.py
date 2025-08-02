@@ -2,7 +2,7 @@
 
 Desafio 049 #TODO MELHORAR E COLOCAR LIMITE DE IDADE FAZER UMA GUI
 
-Refaça o Desafio009, mostrando a tabuada de um número que o usuário escolher, só qaue agor utilizando um laço for
+Refaça o Desafio009, mostrando a tabuada de um número que o usuário escolher, só qaue agor utilizando um laço for.
 
 """
 

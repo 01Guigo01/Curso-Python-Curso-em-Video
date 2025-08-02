@@ -4,11 +4,11 @@ Desafio 056 #TODO MELHORAR E COLOCAR LIMITE DE IDADE FAZER UMA GUI
 
 Desenvolva um programa que leia o nome, idade e sexo de 4 pessoas. No final do programa, mostre:
 
-- A média de idade do grupo
+- A média de idade do grupo.
 
-- Qual é o nome do homem mais velho
+- Qual é o nome do homem mais velho.
 
-- Quantas mulheres têm menos de 20 anos
+- Quantas mulheres têm menos de 20 anos.
 
 """
 import time
@@ -27,7 +27,7 @@ number_of_women_less_20 = 0
 print("\n🤯 Vamos analisar as informações de 5 pessoas. Prepare-se!")
 time.sleep(1.5)
 
-for c in range(1, 6):  # Loop para 5 pessoas, de 1 a 5
+for c in range(1, 6):
     print(f"\n--- CADASTRO DA \033[1;36m{c}ª\033[m PESSOA ---")
     name = str(input("📝 Digite seu nome: ")).strip().upper()
     age = int(input("🎂 Digite sua idade: "))
@@ -61,4 +61,3 @@ print(f"👧 Nesse grupo, há \033[1;31m{number_of_women_less_20}\033[m mulheres
 print("\n" + "=" * 50)
 print("ANÁLISE CONCLUÍDA COM SUCESSO!".center(50))
 print("=" * 50)
-

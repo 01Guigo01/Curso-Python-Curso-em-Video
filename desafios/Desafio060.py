@@ -2,8 +2,7 @@
 
 Desafio060
 
-Faça um programa que leia um número qualquer e mostre seu fatorial
-
+Faça um programa que leia um número qualquer e mostre seu fatorial.
 
 """
 

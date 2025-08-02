@@ -5,12 +5,12 @@ DESAFIO 007
 Desenvolva um programa que leia as notas de um aluno nos 4 bimestres e mostre sua média.
 
 """
+
 import time
 print("=" * 50)
 print("✨ CALCULADORA DE MÉDIA ESCOLAR ✨".center(50))
 print("=" * 50)
 
-# Solicita as notas dos 4 bimestres
 print("\nPor favor, insira as notas de cada bimestre.")
 grade_1 = float(input("📝 Digite a nota do 1º Bimestre: "))
 grade_2 = float(input("📝 Digite a nota do 2º Bimestre: "))

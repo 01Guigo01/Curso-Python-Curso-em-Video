@@ -13,7 +13,6 @@ print("=" * 50)
 num_1 = int(input("🔢 Digite o PRIMEIRO valor inteiro: "))
 num_2 = int(input("➕ Digite o SEGUNDO valor inteiro: "))
 
-
 sum_result = num_1 + num_2
 
 print("\n" + "-" * 50)

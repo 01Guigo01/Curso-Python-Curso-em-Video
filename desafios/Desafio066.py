@@ -7,7 +7,6 @@ Crie um programa que leia vários números inteiros pelo teclado. O programa só
 
 (Desconsiderando o flag).
 
-
 """
 
 import time
@@ -47,4 +46,3 @@ print("=" * 50)
 print(f"Você digitou um total de \033[1;33m{count}\033[m números.")
 print(f"A soma de todos esses números é: \033[1;32m{total_sum}\033[m.")
 print(emoji.emojize(":partying_face: :money_bag:"))
-

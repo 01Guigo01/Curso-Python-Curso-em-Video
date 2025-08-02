@@ -2,7 +2,7 @@
 
 DESESAFIO 032
 
-Faça um programa que leia um ano qualquer e mostre se ele é BISSEXTO
+Faça um programa que leia um ano qualquer e mostre se ele é BISSEXTO.
 
 """
 
@@ -14,7 +14,6 @@ print("✨ ANALISADOR DE ANOS BISSEXTO ✨".center(50))
 print("Descubra se o ano é especial!".center(50))
 print("=" * 50)
 
-# Obtém o ano atual do sistema para uma sugestão, mas não o usa na lógica principal
 current_year = time.localtime().tm_year
 
 year = int(input(f"🗓️ Digite um ano para saber se ele é bissexto (ex: {current_year}): "))

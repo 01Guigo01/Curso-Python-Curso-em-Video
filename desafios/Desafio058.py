@@ -3,7 +3,7 @@
 Desafio058
 
 Melhore o jogo do DESAFIO 028 onde o computador vai "pensar" em um número entre 0 e 10. Só que agora o jogador vai
-tentar adivinhar até acertar, mostrando no final quantos palpites foram necessário para vencer
+tentar adivinhar até acertar, mostrando no final quantos palpites foram necessário para vencer.
 
 """
 
@@ -16,10 +16,9 @@ print("✨ JOGO DE ADIVINHAÇÃO MÁGICA ✨".center(50))
 print("Será que você consegue ler a minha mente?".center(50))
 print("=" * 50)
 
-# O computador pensa em um número UMA VEZ, antes do loop
 computer_choice = random.randint(0, 10)
-player_guess = -1  # Começa com um valor que não seja o correto para iniciar o loop
-guesses = 0  # Contador de palpites
+player_guess = -1
+guesses = 0
 
 print("\n🤯 Estou pensando em um número entre 0 e 10...")
 time.sleep(2)

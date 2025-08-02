@@ -14,14 +14,6 @@ print("✨ VERIFICADOR DE NÚMEROS PRIMOS ✨".center(50))
 print("Descubra a magia por trás dos números!".center(50))
 print("=" * 50)
 
-import time
-import emoji
-
-print("=" * 50)
-print("✨ VERIFICADOR DE NÚMEROS PRIMOS ✨".center(50))
-print("Descubra a magia por trás dos números!".center(50))
-print("=" * 50)
-
 number = int(input("🔢 Digite um número inteiro para a verificação: "))
 
 print(f"\nAnalisando o número \033[1;36m{number}\033[m para ver se ele é primo...")

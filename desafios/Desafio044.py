@@ -5,13 +5,13 @@ Desafio 044 #TODO MELHORAR E COLOCAR LIMITE DE IDADE FAZER UMA GUI
 Elabore um programa uqe calcule o valor a ser pago por um produto, considerando o seu preço normal e condição de
 pagamento:
 
-- À vista dinheiro/pix: 10% de desconto
+- À vista dinheiro/pix: 10% de desconto.
 
-- À vista no cartão: 5% de desconto
+- À vista no cartão: 5% de desconto.
 
-- Em até 2x no cartão: preço normal
+- Em até 2x no cartão: preço normal.
 
-- 3x ou mais no cartão: 20% de juros
+- 3x ou mais no cartão: 20% de juros.
 
 """
 
@@ -21,10 +21,9 @@ print("=" * 50)
 print("✨ CALCULADORA DE PAGAMENTOS ✨".center(50))
 print("=" * 50)
 
-# Solicita o preço do produto (mantendo suas preferências, sem try-except)
+
 product_price = float(input("Digite o valor normal do produto: R$"))
 
-# Apresenta as opções de pagamento
 print("\nEscolha a condição de pagamento:")
 print("[ 1 ] À vista Dinheiro/Pix (10% de desconto)")
 print("[ 2 ] À vista no Cartão (5% de desconto)")

@@ -2,7 +2,7 @@
 
 DESESAFIO 033
 
-Faça um programaque leia três números e mostre qual é o maior e qual é o menor
+Faça um programaque leia três números e mostre qual é o maior e qual é o menor.
 
 """
 

@@ -2,7 +2,7 @@
 
 Desafio 047
 
-Crie um programa que mosatre na tela todos os números pares que estãa no intervalo entre um número e outro
+Crie um programa que mosatre na tela todos os números pares que estãa no intervalo entre um número e outro.
 
 """
 
@@ -24,7 +24,6 @@ print("\n" + "=" * 50)
 print("🎉 RESULTADOS ENCONTRADOS 🎉".center(50))
 print("=" * 50)
 
-# The correct way to iterate and print only even numbers
 print("Aqui estão os números pares:")
 for n in range(start, end + 1):
     if n % 2 == 0:

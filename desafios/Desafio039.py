@@ -5,34 +5,30 @@ DESESAFIO 039 #TODO MELHORAR E COLOCAR LIMITE DE IDADE FAZER UMA GUI
 
 Faça um programa que leia o ano de nascimento de um jovem e informe , de acordo com sua idade:
 
-- Se ele ainda vai se alistar ao serviço militar
+- Se ele ainda vai se alistar ao serviço militar.
 
-- Se é a hora de se alistar
+- Se é a hora de se alistar.
 
-- Se já passou o tempo de alistamento
+- Se já passou o tempo de alistamento.
 
 """
-
 
 from time import sleep
 from datetime import datetime
 
-# --- Cores ANSI para Terminal (opcional, pode não funcionar em todos os terminais) ---
-# Se as cores não aparecerem, seu terminal pode não suportá-las.
 VERMELHO = '\033[31m'
 VERDE = '\033[32m'
 AMARELO = '\033[33m'
 AZUL = '\033[34m'
 ROXO = '\033[35m'
 CIANO = '\033[36m'
-RESET = '\033[0m' # Reseta a cor para o padrão do terminal
-# ---------------------------------------------------------------------------------
+RESET = '\033[0m'
 
 print(f"{CIANO}{'=' * 50}{RESET}")
 print(f"{AZUL}{'SISTEMA DE ALISTAMENTO MILITAR'.center(50)}{RESET}")
 print(f"{CIANO}{'=' * 50}{RESET}")
 
-sleep(1) # Pequena pausa para o título aparecer
+sleep(1)
 
 print(f"\n{AMARELO}Seja bem-vindo(a) ao seu verificador de alistamento!{RESET}")
 print(f"Vamos descobrir sua situação perante o Serviço Militar.")
@@ -46,7 +42,7 @@ current_age = current_year - birth_year
 year_enlistment = birth_year + 18
 
 print(f"\n{ROXO}Analisando seus dados, aguarde um momento...{RESET}")
-sleep(3) # Pausa maior para simular "análise"
+sleep(3)
 
 print(f"\n{CIANO}--- RESULTADO DA ANÁLISE ---\n{RESET}")
 print(f"Seu ano de nascimento: {birth_year}")

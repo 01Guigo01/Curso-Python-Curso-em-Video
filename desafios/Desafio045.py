@@ -2,22 +2,18 @@
 
 Desafio 045 #TODO MELHORAR E COLOCAR LIMITE DE IDADE FAZER UMA GUI
 
-Faça um programa que jogue JOKENPO COM você
+Faça um programa que jogue JOKENPO COM você.
 
 """
 
 import random
 import time
+import emoji
 
 print("=" * 50)
 print("✨ JOKENPÔ: PEDRA, PAPEL E TESOURA ✨".center(50))
 print("=" * 50)
 
-import random
-import time
-import emoji
-
-# Game variables
 player_score = 0
 computer_score = 0
 rounds_played = 0

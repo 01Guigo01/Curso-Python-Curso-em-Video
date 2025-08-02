@@ -6,7 +6,7 @@ Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre qu
 
 """
 
-import time #
+import time
 
 print("=" * 50)
 print("✨ CONVERSOR DE REAIS PARA MOEDAS ESTRANGEIRAS ✨".center(50))

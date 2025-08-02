@@ -4,21 +4,20 @@ Desafio 042
 
 Refaça o Desafio 035 dos triângulos, acrescentando o recurso de mostrar que tipo de triângulo será formado:
 
-- Equilátero: Todos os lados iguais
+- Equilátero: Todos os lados iguais.
 
-- Isósceles: Dois lados iguais
+- Isósceles: Dois lados iguais.
 
-- Escleno: todos os lados diferente
+- Escleno: todos os lados diferente.
 
 """
 
-import time # Para as pausas que dão um toque de "charme"
+import time
 
 print("=" * 50)
 print("✨ CONSTRUTOR E CLASSIFICADOR DE TRIÂNGULOS ✨".center(50))
 print("=" * 50)
 
-# 1. Solicitar os comprimentos dos três segmentos (sem tratamento de erro)
 print("Por favor, digite os comprimentos de três segmentos de reta.")
 print("Vamos verificar se eles podem formar um triângulo e, em caso positivo, que tipo de triângulo é.")
 
@@ -27,22 +26,19 @@ segmento_b = float(input("Digite o comprimento do 2º segmento: "))
 segmento_c = float(input("Digite o comprimento do 3º segmento: "))
 
 print("\nAnalisando os segmentos...")
-time.sleep(2) # Pausa para simular processamento
+time.sleep(2)
 
 print("-" * 50)
 print(f"Segmentos informados: A={segmento_a:.2f}, B={segmento_b:.2f}, C={segmento_c:.2f}")
 print("-" * 50)
 
-# 2. Verificar se os segmentos podem formar um triângulo (condição de existência)
-# A soma de dois lados deve ser sempre maior que o terceiro lado.
 if (segmento_a < segmento_b + segmento_c and
     segmento_b < segmento_a + segmento_c and
     segmento_c < segmento_a + segmento_b):
 
     print("\n✅ Ótima notícia! Os segmentos INFORMADOS PODEM FORMAR um triângulo!")
-    time.sleep(1) # Pequena pausa antes de classificar
+    time.sleep(1)
 
-    # 3. Classificar o tipo de triângulo
     print("\nAgora, vamos identificar o tipo de triângulo:")
     time.sleep(1)
 
@@ -50,7 +46,7 @@ if (segmento_a < segmento_b + segmento_c and
         print("    -> Este será um triângulo: \033[1;32mEQUILÁTERO\033[m (Todos os lados são iguais! 🎉)")
     elif segmento_a == segmento_b or segmento_a == segmento_c or segmento_b == segmento_c:
         print("    -> Este será um triângulo: \033[1;33mISÓSCELES\033[m (Dois lados são iguais! 🌟)")
-    else: # Todos os lados diferentes (este 'else' pega a única opção restante se for um triângulo)
+    else:
         print("    -> Este será um triângulo: \033[1;34mESCALENO\033[m (Todos os lados são diferentes! 🚀)")
 
 else: # Se a condição inicial de triângulo não for atendida

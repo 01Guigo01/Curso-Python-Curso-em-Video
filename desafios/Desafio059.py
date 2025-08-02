@@ -15,11 +15,9 @@ Crie um programa que leia dois valores e mostre um menu na tela:
 import time
 import emoji
 
-# Inicializa as variáveis para entrar no loop
 first_number = 0.0
 second_number = 0.0
-option = 0  # Define uma opção inicial para que o loop comece
-
+option = 0
 print("=" * 50)
 print("✨ CALCULADORA MÁGICA: MENU DE OPERAÇÕES ✨".center(50))
 print("Selecione sua operação e veja a mágica acontecer!".center(50))

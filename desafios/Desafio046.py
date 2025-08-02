@@ -3,7 +3,7 @@
 Desafio 046
 
 Façc um programa que mostre na tela uma contagem regressiva para o estouro de fogos de artifícios, indo de 10 até 0,
-com uma pausa de 1 segundo entre eles
+com uma pausa de 1 segundo entre eles.
 
 """
 
@@ -26,7 +26,7 @@ print("=" * 50)
 
 for c in range(start, end - 1, -1):
     print(f"💥 {c} 💥")
-    time.sleep(1)  # Reduzi o tempo para 1 segundo, o que é mais dinâmico
+    time.sleep(1)
 
 print("\n" + "=" * 50)
 print("🚀 FIM DA CONTAGEM! 🚀".center(50))

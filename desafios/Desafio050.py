@@ -3,7 +3,7 @@
 Desafio 050
 
 Desenvolva um programa que leia seis números inteiros e mostre a soma apena daqueles que forem pares. Se o valor
-digitado for impar desconsidere-o
+digitado for impar desconsidere-o.
 
 """
 
@@ -16,7 +16,7 @@ print("Somando apenas os números pares!".center(50))
 print("=" * 50)
 
 soma_pares = 0
-numeros_pares = []  # Lista para armazenar os números pares digitados
+numeros_pares = []
 
 print("\n🤯 Prepare-se! Vamos somar os números que você digitar.")
 time.sleep(1.5)

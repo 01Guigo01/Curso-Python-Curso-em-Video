@@ -3,7 +3,7 @@
 Desafio067
 
 Faça um programa que mostre a tabuada de vários números, um de cada vez, para cada valor digitado pelo usuário.
-O programa será interrompido quando o número solicitado for negativo
+O programa será interrompido quando o número solicitado for negativo.
 
 """
 import time
@@ -26,7 +26,7 @@ while keep_going == 'S':
     for i in range(0, 11):
         result = number * i
         print(f"    \033[1;33m{number}\033[m X \033[1;33m{i}\033[m = \033[1;32m{result}\033[m")
-        time.sleep(0.2)  # Pausa para exibir cada linha da tabuada
+        time.sleep(0.2)
     print("=" * 50)
 
     keep_going_valid = False

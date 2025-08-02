@@ -3,22 +3,13 @@
 Desafio 051
 
 Desenvolva um programa que leia o primeiro termo e a razão de um PA. No final, mostre os 10 primeiros termos dessa
-progressão
+progressão.
 
 """
 
 import time
 import emoji
 
-print("=" * 50)
-print("✨ CALCULADORA DE PROGRESSÃO ARITMÉTICA ✨".center(50))
-print("Descubra os 10 primeiros termos da sua PA!".center(50))
-print("=" * 50)
-
-import time
-import emoji
-
-print("=" * 50)
 print("✨ CALCULADORA DE PROGRESSÃO ARITMÉTICA ✨".center(50))
 print("Descubra os 10 primeiros termos da sua PA!".center(50))
 print("=" * 50)

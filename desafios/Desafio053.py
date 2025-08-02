@@ -14,14 +14,6 @@ print("✨ VERIFICADOR DE PALÍNDROMOS ✨".center(50))
 print("Será que sua frase pode ser lida de trás para frente?".center(50))
 print("=" * 50)
 
-import time
-import emoji
-
-print("=" * 50)
-print("✨ VERIFICADOR DE PALÍNDROMOS ✨".center(50))
-print("Será que sua frase pode ser lida de trás para frente?".center(50))
-print("=" * 50)
-
 phrase = str(input("✍️ Digite uma frase: ")).strip().upper()
 
 print(f"\nAnalisando a frase '\033[1;36m{phrase.title()}\033[m'...")

@@ -15,14 +15,6 @@ print("✨ VERIFICADOR DE MAIORIDADE ✨".center(50))
 print("Descubra quem já pode curtir e quem ainda está crescendo!".center(50))
 print("=" * 50)
 
-import time
-import emoji
-
-print("=" * 50)
-print("✨ VERIFICADOR DE MAIORIDADE ✨".center(50))
-print("Descubra quem já pode curtir e quem ainda está crescendo!".center(50))
-print("=" * 50)
-
 adults = 0
 minors = 0
 current_year = 2025 # Mantive o ano atual fixo para simplificar o código, como você prefere

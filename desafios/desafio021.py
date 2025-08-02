@@ -27,9 +27,9 @@ time.sleep(1.5)
 print("\n🔊 TOCANDO AGORA! Divirta-se! 🚀")
 pygame.mixer.music.play(1)
 
-# Loop para manter o programa rodando enquanto a música toca
+
 while pygame.mixer.music.get_busy():
-    time.sleep(1) # Espera 1 segundo para não usar muita CPU
+    time.sleep(1)
 
 print("\n⏹️ Reprodução concluída! Espero que tenha gostado. 🎉")
 
